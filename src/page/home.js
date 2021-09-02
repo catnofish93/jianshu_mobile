@@ -5,7 +5,6 @@ import activity from '../components/home/activity';
 import prefer from '../components/home/prefer';
 import suggest from '../components/home/suggest';
 import topic from '../components/home/topic';
-
 const renderScene = SceneMap({
   activity: activity,
   prefer: prefer,
