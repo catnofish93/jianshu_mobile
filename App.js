@@ -12,7 +12,6 @@ import Iconlike from './src/iconfont/Iconlike';
 import IconiconTest15 from './src/iconfont/IconiconTest15';
 import Iconpinglun from './src/iconfont/Iconpinglun';
 import Icondenglu1 from './src/iconfont/Icondenglu1';
-import Search from './src/components/home/search';
 const Tab = createBottomTabNavigator();
 
 export default function App() {
@@ -23,8 +22,7 @@ export default function App() {
           name="首页"
           component={home}
           options={{
-            tabBarIcon: () => <IconindexCopy />,
-            header: () => <Search />
+            tabBarIcon: () => <IconindexCopy />
           }}
         />
         <Tab.Screen

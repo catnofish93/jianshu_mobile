@@ -7,7 +7,6 @@ import {
   FlatList,
   Image,
 } from 'react-native';
-import banner from '../../images/banner-s-daily-e6f6601abc495573ad37f2532468186f.png';
 const DATA = [
   {
     id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
@@ -42,7 +41,7 @@ class SettingsScreen extends React.Component {
           data={DATA}
           renderItem={({item}) => (
             <View style={styles.listItem}>
-              <Image source={banner} style={styles.image} />
+              <Image style={styles.image} />
               <Text>{item.title}</Text>
             </View>
           )}
